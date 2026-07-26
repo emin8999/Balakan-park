@@ -1,0 +1,8 @@
+{
+  "name": "Balakən Park & Əyləncə Mərkəzi",
+  "description": "Balakən Park rəsmi veb səhifəsi — Kanat yolu, attrasionlar, restoranlar və ailəvi istirahət mərkəzi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
