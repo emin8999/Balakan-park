@@ -1,5 +1,5 @@
 /* ============================================
-   ДИЗАЙН 2 — Светлый минимализм / редакционный
+   DIZAIN 2 — Светлый минимализм / редакционный
    ============================================ */
 /* Палитра: кремовый фон, коричневый текст, глубокий зелёный акцент */
 :root {
@@ -52,12 +52,6 @@ ul,
 ol {
   list-style: none
 }
-
-/* 
-.container {
-  width: min(1240px, 90%);
-  margin: 0 auto
-} */
 
 h1,
 h2,
@@ -504,7 +498,7 @@ em {
   color: var(--bg)
 }
 
-/* ---------- Дома ---------- */
+/* ---------- Дома / Аттракционы ---------- */
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -539,30 +533,6 @@ em {
 .house:hover .house__img {
   transform: scale(1.015);
   filter: brightness(1.04)
-}
-
-.house__img--1 {
-  background: linear-gradient(140deg, #c9b894, #7c8a63)
-}
-
-.house__img--2 {
-  background: linear-gradient(140deg, #a8b394, #5c6f52)
-}
-
-.house__img--3 {
-  background: linear-gradient(140deg, #c4b48d, #83794f)
-}
-
-.house__img--4 {
-  background: linear-gradient(140deg, #c3a888, #8a7050)
-}
-
-.house__img--5 {
-  background: linear-gradient(140deg, #b0bda2, #647a5c)
-}
-
-.house__img--6 {
-  background: linear-gradient(140deg, #bfa989, #7a6743)
 }
 
 .house__title {
@@ -907,7 +877,6 @@ em {
   display: none
 }
 
-/* важно: перебивает display:grid выше */
 .modal__backdrop {
   position: absolute;
   inset: 0;
@@ -1302,7 +1271,6 @@ em {
 }
 
 @media(max-width:992px) {
-
   /* Header & Mobile Navigation Overlay */
   .header {
     padding: 14px 0;
